@@ -1,5 +1,7 @@
 # setImmediate
 
+THIS DOCUMENT IS NO LONGER UNDER DEVELOPMENT.
+
 This repo defines an interface for web applications to received an immediate callback after the browser's event queue is completely flushed.
 
 This allows a low priority callback to be scheduled that is executed only when there are no active events in any other queue.
